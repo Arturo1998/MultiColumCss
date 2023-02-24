@@ -1,0 +1,36 @@
+body {
+  line-height: 1.5;
+  margin: 0 auto;
+  padding-right: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.masonry {
+  columns: 5 320px;
+  column-gap: 2em;
+  column-rule: 1px solid rgb(196, 196, 196);
+}
+
+.masonry > li > p {
+  color: rgb(125, 125, 125);
+  width: 90%;
+  font-size: larger;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 5em;
+  break-inside: avoid;
+}
+
+li:first-child {
+  margin-top: 0em;
+}
